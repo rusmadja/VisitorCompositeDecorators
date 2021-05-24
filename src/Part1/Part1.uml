@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Part1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="843.0">Part1.Visitor.FileCountVisitor</node>
+    <node x="931.0" y="607.0">Part1.File.FileDetailsFactory</node>
+    <node x="833.5" y="0.0">Part1.Visitor.Visitable</node>
+    <node x="0.0" y="352.0">Part1.File.HtmlFileDetails</node>
+    <node x="1579.0" y="352.0">Part1.File.JpgFileDetails</node>
+    <node x="822.5" y="104.0">Part1.FileDetails</node>
+    <node x="792.0" y="374.0">Part1.File.PptxFileDetails</node>
+    <node x="437.0" y="843.0">Part1.Visitor.FileStatsVisitor</node>
+    <node x="534.0" y="374.0">Part1.File.TxtFileDetails</node>
+    <node x="327.75" y="607.0">Part1.Visitor.FileVisitor</node>
+    <node x="1291.0" y="352.0">Part1.File.DocxFileDetails</node>
+    <node x="201.0" y="843.0">Part1.Visitor.FileShortPrintVisitor</node>
+    <node x="1057.0" y="385.0">Part1.File.DirectoryDetails</node>
+    <node x="268.0" y="374.0">Part1.File.Mp3FileDetails</node>
+    <node x="638.0" y="843.0">Part1.Visitor.FileSizeCalculatorVisitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Part1.FileDetails" target="Part1.Visitor.Visitable">
+      <point x="0.0" y="-94.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Part1.File.Mp3FileDetails" target="Part1.FileDetails">
+      <point x="0.0" y="-83.0" />
+      <point x="391.0" y="322.0" />
+      <point x="861.9285714285714" y="322.0" />
+      <point x="-52.571428571428555" y="94.0" />
+    </edge>
+    <edge source="Part1.File.JpgFileDetails" target="Part1.FileDetails">
+      <point x="0.0" y="-105.0" />
+      <point x="1709.0" y="312.0" />
+      <point x="993.3571428571429" y="312.0" />
+      <point x="78.85714285714289" y="94.0" />
+    </edge>
+    <edge source="Part1.File.DirectoryDetails" target="Part1.FileDetails">
+      <point x="0.0" y="-72.0" />
+      <point x="1164.0" y="332.0" />
+      <point x="940.7857142857143" y="332.0" />
+      <point x="26.285714285714334" y="94.0" />
+    </edge>
+    <edge source="Part1.File.HtmlFileDetails" target="Part1.FileDetails">
+      <point x="0.0" y="-105.0" />
+      <point x="124.0" y="312.0" />
+      <point x="835.6428571428571" y="312.0" />
+      <point x="-78.85714285714289" y="94.0" />
+    </edge>
+    <edge source="Part1.Visitor.FileSizeCalculatorVisitor" target="Part1.Visitor.FileVisitor">
+      <point x="0.0" y="-93.0" />
+      <point x="762.0" y="813.0" />
+      <point x="486.125" y="813.0" />
+      <point x="67.875" y="93.0" />
+    </edge>
+    <edge source="Part1.Visitor.FileCountVisitor" target="Part1.Visitor.FileVisitor">
+      <point x="0.0" y="-93.0" />
+      <point x="90.5" y="813.0" />
+      <point x="350.375" y="813.0" />
+      <point x="-67.875" y="93.0" />
+    </edge>
+    <edge source="Part1.File.TxtFileDetails" target="Part1.FileDetails">
+      <point x="0.0" y="-83.0" />
+      <point x="653.0" y="332.0" />
+      <point x="888.2142857142858" y="332.0" />
+      <point x="-26.28571428571422" y="94.0" />
+    </edge>
+    <edge source="Part1.File.DocxFileDetails" target="Part1.FileDetails">
+      <point x="0.0" y="-105.0" />
+      <point x="1425.0" y="322.0" />
+      <point x="967.0714285714286" y="322.0" />
+      <point x="52.571428571428555" y="94.0" />
+    </edge>
+    <edge source="Part1.Visitor.FileShortPrintVisitor" target="Part1.Visitor.FileVisitor">
+      <point x="0.0" y="-93.0" />
+      <point x="309.0" y="823.0" />
+      <point x="395.625" y="823.0" />
+      <point x="-22.625" y="93.0" />
+    </edge>
+    <edge source="Part1.File.PptxFileDetails" target="Part1.FileDetails">
+      <point x="0.0" y="-83.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Part1.Visitor.FileStatsVisitor" target="Part1.Visitor.FileVisitor">
+      <point x="0.0" y="-93.0" />
+      <point x="527.5" y="823.0" />
+      <point x="440.875" y="823.0" />
+      <point x="22.625" y="93.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="603.0" y="282.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

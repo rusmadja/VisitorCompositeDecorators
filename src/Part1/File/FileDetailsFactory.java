@@ -1,11 +1,12 @@
 package Part1.File;
 
 import Part1.FileDetails;
+import Part1.Visitor.Visitable;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class FileDetailsFactory {
+public abstract class FileDetailsFactory{
     private final static String EXTENTION_CAPTURE_PATTERN = "^[^ .]*(\\.[^ ]*)?";
     private final static String MP3_CAPTURE_PATTERN = "(.*/)?([^ /]*) length in seconds: (\\d+), (\\d+) bytes";
     private final static String JPG_CAPTURE_PATTERN = "(.*/)?([^ /]*) (\\d+)x(\\d+), (\\d+) bytes";

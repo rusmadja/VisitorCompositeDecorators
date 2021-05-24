@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Part2</OriginalElement>
+  <nodes>
+    <node x="367.0" y="-49.0">Part2.Topping.ToppingFactory</node>
+    <node x="129.0" y="-49.0">Part2.Hamburger.HamburgerFactory</node>
+    <node x="680.0" y="80.0">Part2.Hamburger.LambHamburger</node>
+    <node x="1048.0" y="80.0">Part2.Hamburger.SpicyHamburger</node>
+    <node x="0.0" y="160.0">Part2.Topping.ChipsDecorator</node>
+    <node x="852.0" y="80.0">Part2.Hamburger.ClassicHamburger</node>
+    <node x="280.0" y="80.0">Part2.Topping.ToppingDecorator</node>
+    <node x="384.0" y="160.0">Part2.Topping.SaladDecorator</node>
+    <node x="476.0" y="80.0">Part2.Hamburger.HomemadeHamburger</node>
+    <node x="180.0" y="160.0">Part2.Topping.FriedEggDecorator</node>
+    <node x="564.0" y="160.0">Part2.Topping.OnionRingsDecorator</node>
+    <node x="696.0" y="0.0">Part2.Hamburger.Hamburger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Part2.Topping.SaladDecorator" target="Part2.Topping.ToppingDecorator">
+      <point x="0.0" y="-15.0" />
+      <point x="464.0" y="140.0" />
+      <point x="390.0" y="140.0" />
+      <point x="22.0" y="15.0" />
+    </edge>
+    <edge source="Part2.Topping.OnionRingsDecorator" target="Part2.Topping.ToppingDecorator">
+      <point x="0.0" y="-15.0" />
+      <point x="664.0" y="130.0" />
+      <point x="434.0" y="130.0" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="Part2.Hamburger.HomemadeHamburger" target="Part2.Hamburger.Hamburger">
+      <point x="0.0" y="-15.0" />
+      <point x="568.0" y="60.0" />
+      <point x="732.0" y="60.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="Part2.Hamburger.SpicyHamburger" target="Part2.Hamburger.Hamburger">
+      <point x="0.0" y="-15.0" />
+      <point x="1128.0" y="50.0" />
+      <point x="804.0" y="50.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+    <edge source="Part2.Topping.ToppingDecorator" target="Part2.Hamburger.Hamburger">
+      <point x="0.0" y="-15.0" />
+      <point x="368.0" y="50.0" />
+      <point x="708.0" y="50.0" />
+      <point x="-48.0" y="15.0" />
+    </edge>
+    <edge source="Part2.Topping.ChipsDecorator" target="Part2.Topping.ToppingDecorator">
+      <point x="0.0" y="-15.0" />
+      <point x="80.0" y="130.0" />
+      <point x="302.0" y="130.0" />
+      <point x="-66.0" y="15.0" />
+    </edge>
+    <edge source="Part2.Topping.FriedEggDecorator" target="Part2.Topping.ToppingDecorator">
+      <point x="0.0" y="-15.0" />
+      <point x="272.0" y="140.0" />
+      <point x="346.0" y="140.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="Part2.Hamburger.LambHamburger" target="Part2.Hamburger.Hamburger">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Part2.Hamburger.ClassicHamburger" target="Part2.Hamburger.Hamburger">
+      <point x="0.0" y="-15.0" />
+      <point x="940.0" y="60.0" />
+      <point x="780.0" y="60.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="627.0" y="55.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
